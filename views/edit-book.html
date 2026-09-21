@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Edit Book</title>
+
+    <link
+        rel="stylesheet"
+        href="../css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <h1>
+            Edit Book
+        </h1>
+
+    </header>
+
+
+    <main>
+
+        <section class="form-section">
+
+            <h2>
+                Update Book
+            </h2>
+
+
+            <form id="editBookForm">
+
+
+                <div class="form-group">
+
+                    <label for="title">
+                        Title
+                    </label>
+
+                    <input
+                        type="text"
+                        id="title"
+                    >
+
+                    <span
+                        id="titleError"
+                        class="error"
+                    ></span>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="author">
+                        Author
+                    </label>
+
+                    <input
+                        type="text"
+                        id="author"
+                    >
+
+                    <span
+                        id="authorError"
+                        class="error"
+                    ></span>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="category">
+                        Category
+                    </label>
+
+                    <input
+                        type="text"
+                        id="category"
+                    >
+
+                    <span
+                        id="categoryError"
+                        class="error"
+                    ></span>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="price">
+                        Price
+                    </label>
+
+                    <input
+                        type="number"
+                        id="price"
+                        min="1"
+                    >
+
+                    <span
+                        id="priceError"
+                        class="error"
+                    ></span>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="totalStock">
+                        Total Stock
+                    </label>
+
+                    <input
+                        type="number"
+                        id="totalStock"
+                        min="1"
+                    >
+
+                    <span
+                        id="totalStockError"
+                        class="error"
+                    ></span>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="availableStock">
+                        Available Stock
+                    </label>
+
+                    <input
+                        type="number"
+                        id="availableStock"
+                        min="0"
+                    >
+
+                    <span
+                        id="availableStockError"
+                        class="error"
+                    ></span>
+
+                </div>
+
+
+                <button type="submit">
+                    Update Book
+                </button>
+
+
+                <a href="index.html">
+                    Cancel
+                </a>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <script
+        type="module"
+        src="../js/editBook.js"
+    ></script>
+
+</body>
+
+</html>

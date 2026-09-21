@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Return Book</title>
+
+    <link
+        rel="stylesheet"
+        href="../css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <h1>
+            Return Book
+        </h1>
+
+        <a
+            href="index.html"
+            class="back-button"
+        >
+            ← Back to Books
+        </a>
+
+    </header>
+
+
+    <main>
+
+        <section class="form-section">
+
+            <h2>
+                Return a Book
+            </h2>
+
+
+            <form id="returnBookForm">
+
+
+                <div class="form-group">
+
+                    <label for="bookSelect">
+                        Select Book
+                    </label>
+
+                    <select id="bookSelect">
+
+                        <option value="">
+                            Select a book
+                        </option>
+
+                    </select>
+
+                    <span
+                        id="bookError"
+                        class="error"
+                    ></span>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="userSelect">
+                        Select User
+                    </label>
+
+                    <select id="userSelect">
+
+                        <option value="">
+                            Select a user
+                        </option>
+
+                    </select>
+
+                    <span
+                        id="userError"
+                        class="error"
+                    ></span>
+
+                </div>
+
+
+                <div id="issueInfo"></div>
+
+
+                <button
+                    type="submit"
+                    class="submit-button"
+                >
+                    Return Book
+                </button>
+
+
+                <a href="index.html">
+                    Cancel
+                </a>
+
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <script
+        type="module"
+        src="../js/returnBook.js"
+    ></script>
+
+</body>
+
+</html>

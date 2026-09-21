@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Library Management System</title>
+
+    <link
+        rel="stylesheet"
+        href="../css/style.css"
+    >
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>
+            Library Management System
+        </h1>
+
+    </header>
+
+
+    <main>
+
+        <section class="books-section">
+
+            <h2>
+                Books
+            </h2>
+
+
+            <div class="top-actions">
+
+                <a
+                    href="add-book.html"
+                    class="add-book-button"
+                >
+                    + Add New Book
+                </a>
+
+
+                <a
+                    href="users.html"
+                    class="users-button"
+                >
+                    👥 Manage Users
+                </a>
+
+            </div>
+
+
+            <div class="filters">
+
+                <div class="search-box">
+
+                    <label for="searchInput">
+                        Search
+                    </label>
+
+                    <input
+                        type="text"
+                        id="searchInput"
+                        placeholder="Search by title or author"
+                    >
+
+                </div>
+
+
+                <div class="category-box">
+
+                    <label for="categoryFilter">
+                        Category
+                    </label>
+
+                    <select id="categoryFilter">
+
+                        <option value="all">
+                            All Categories
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <div class="status-filters">
+
+                <button
+                    id="allBooksButton"
+                    class="filter-button active"
+                >
+                    All
+                </button>
+
+
+                <button
+                    id="availableBooksButton"
+                    class="filter-button"
+                >
+                    Available
+                </button>
+
+
+                <button
+                    id="issuedBooksButton"
+                    class="filter-button"
+                >
+                    Issued
+                </button>
+
+            </div>
+
+
+            <div id="booksContainer"></div>
+
+        </section>
+
+    </main>
+
+
+    <script
+        type="module"
+        src="../js/main.js"
+    ></script>
+
+</body>
+
+</html>

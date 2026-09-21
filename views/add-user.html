@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Add User</title>
+
+    <link
+        rel="stylesheet"
+        href="../css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <h1>
+            Add New User
+        </h1>
+
+        <a
+            href="users.html"
+            class="back-button"
+        >
+            ← Back to Users
+        </a>
+
+    </header>
+
+
+    <main>
+
+        <section class="form-section">
+
+            <h2>
+                Register New User
+            </h2>
+
+
+            <form id="addUserForm">
+
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter user name"
+                    >
+
+                    <span
+                        id="nameError"
+                        class="error"
+                    ></span>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter email"
+                    >
+
+                    <span
+                        id="emailError"
+                        class="error"
+                    ></span>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="phone">
+                        Phone
+                    </label>
+
+                    <input
+                        type="text"
+                        id="phone"
+                        maxlength="10"
+                        placeholder="Enter 10-digit phone number"
+                    >
+
+                    <span
+                        id="phoneError"
+                        class="error"
+                    ></span>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="submit-button"
+                >
+                    Add User
+                </button>
+
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <script
+        type="module"
+        src="../js/adduser.js?v=2"
+    ></script>
+
+</body>
+
+</html>

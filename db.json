@@ -1,0 +1,318 @@
+{
+  "books": [
+    {
+      "id": "3",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "category": "Self Help",
+      "price": 499,
+      "totalStock": 4,
+      "availableStock": 3
+    },
+    {
+      "id": "4",
+      "title": "Python Crash Course",
+      "author": "Eric Matthes",
+      "category": "Programming",
+      "price": 550,
+      "totalStock": 6,
+      "availableStock": 5
+    },
+    {
+      "id": "5",
+      "title": "Harry Potter",
+      "author": "J.K. Rowling",
+      "category": "Fantasy",
+      "price": 450,
+      "totalStock": 8,
+      "availableStock": 8
+    },
+    {
+      "id": "6",
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "category": "Finance",
+      "price": 450,
+      "totalStock": 5,
+      "availableStock": 5
+    },
+    {
+      "id": "7",
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "category": "Finance",
+      "price": 399,
+      "totalStock": 4,
+      "availableStock": 4
+    },
+    {
+      "id": "8",
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "category": "Self Help",
+      "price": 299,
+      "totalStock": 6,
+      "availableStock": 6
+    },
+    {
+      "id": "9",
+      "title": "The Power of Habit",
+      "author": "Charles Duhigg",
+      "category": "Self Help",
+      "price": 420,
+      "totalStock": 5,
+      "availableStock": 5
+    },
+    {
+      "id": "10",
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "category": "Productivity",
+      "price": 499,
+      "totalStock": 4,
+      "availableStock": 4
+    },
+    {
+      "id": "11",
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt",
+      "category": "Programming",
+      "price": 750,
+      "totalStock": 3,
+      "availableStock": 3
+    },
+    {
+      "id": "12",
+      "title": "JavaScript: The Good Parts",
+      "author": "Douglas Crockford",
+      "category": "Programming",
+      "price": 499,
+      "totalStock": 4,
+      "availableStock": 4
+    },
+    {
+      "id": "13",
+      "title": "Clean Architecture",
+      "author": "Robert C. Martin",
+      "category": "Programming",
+      "price": 699,
+      "totalStock": 3,
+      "availableStock": 3
+    },
+    {
+      "id": "14",
+      "title": "Database System Concepts",
+      "author": "Abraham Silberschatz",
+      "category": "Database",
+      "price": 850,
+      "totalStock": 3,
+      "availableStock": 3
+    },
+    {
+      "id": "15",
+      "title": "Computer Networks",
+      "author": "Andrew S. Tanenbaum",
+      "category": "Networking",
+      "price": 799,
+      "totalStock": 4,
+      "availableStock": 4
+    },
+    {
+      "id": "16",
+      "title": "Operating System Concepts",
+      "author": "Abraham Silberschatz",
+      "category": "Operating Systems",
+      "price": 900,
+      "totalStock": 3,
+      "availableStock": 3
+    },
+    {
+      "id": "17",
+      "title": "Artificial Intelligence",
+      "author": "Stuart Russell",
+      "category": "Artificial Intelligence",
+      "price": 950,
+      "totalStock": 3,
+      "availableStock": 3
+    },
+    {
+      "id": "18",
+      "title": "Hands-On Machine Learning",
+      "author": "Aurélien Géron",
+      "category": "Machine Learning",
+      "price": 850,
+      "totalStock": 4,
+      "availableStock": 4
+    },
+    {
+      "id": "19",
+      "title": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen",
+      "category": "Algorithms",
+      "price": 1100,
+      "totalStock": 3,
+      "availableStock": 3
+    },
+    {
+      "id": "20",
+      "title": "Data Structures and Algorithms in Python",
+      "author": "Michael T. Goodrich",
+      "category": "Data Structures",
+      "price": 750,
+      "totalStock": 4,
+      "availableStock": 4
+    },
+    {
+      "id": "21",
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "category": "Fiction",
+      "price": 399,
+      "totalStock": 5,
+      "availableStock": 5
+    },
+    {
+      "id": "22",
+      "title": "1984",
+      "author": "George Orwell",
+      "category": "Fiction",
+      "price": 299,
+      "totalStock": 5,
+      "availableStock": 5
+    },
+    {
+      "id": "23",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "category": "Fiction",
+      "price": 350,
+      "totalStock": 4,
+      "availableStock": 4
+    },
+    {
+      "id": "24",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "category": "Fiction",
+      "price": 399,
+      "totalStock": 5,
+      "availableStock": 5
+    },
+    {
+      "id": "25",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "category": "Fantasy",
+      "price": 450,
+      "totalStock": 5,
+      "availableStock": 5
+    },
+    {
+      "id": "26",
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "category": "Fantasy",
+      "price": 699,
+      "totalStock": 4,
+      "availableStock": 4
+    },
+    {
+      "id": "27",
+      "title": "Ikigai",
+      "author": "Héctor García",
+      "category": "Self Help",
+      "price": 350,
+      "totalStock": 5,
+      "availableStock": 5
+    },
+    {
+      "id": "28",
+      "title": "Do Epic Shit",
+      "author": "Ankur Warikoo",
+      "category": "Self Help",
+      "price": 399,
+      "totalStock": 4,
+      "availableStock": 4
+    },
+    {
+      "id": "29",
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "category": "Self Help",
+      "price": 450,
+      "totalStock": 5,
+      "availableStock": 5
+    },
+    {
+      "id": "30",
+      "title": "Zero to One",
+      "author": "Peter Thiel",
+      "category": "Business",
+      "price": 499,
+      "totalStock": 4,
+      "availableStock": 4
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Student 1",
+      "email": "student1@example.com"
+    },
+    {
+      "id": "2",
+      "name": "Student 2",
+      "email": "student2@example.com",
+      "phone": "8765432900"
+    },
+    {
+      "id": "3",
+      "name": "Student 3",
+      "email": "student3@example.com",
+      "phone": "9346149857"
+    },
+    {
+      "id": "4",
+      "name": "Student 4",
+      "email": "student4@example.com"
+    },
+    {
+      "id": "5",
+      "name": "Student 5",
+      "email": "student5@example.com"
+    },
+    {
+      "name": "Student 6",
+      "email": "student6@gmail.com",
+      "phone": "0987654321",
+      "id": "6"
+    },
+    {
+      "name": "Student 7",
+      "email": "student7@gmail.com",
+      "phone": "0987654321",
+      "id": "7"
+    },
+    {
+      "name": "Student 8",
+      "email": "student8@gmail.com",
+      "phone": "0987654321",
+      "id": "8"
+    }
+  ],
+  "issuedBooks": [
+    {
+      "id": "1",
+      "bookId": "3",
+      "userId": "1",
+      "issueDate": "2026-09-20"
+    },
+    {
+      "bookId": "4",
+      "userId": "7",
+      "issueDate": "2026-09-20",
+      "id": "B74_C9O"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
